@@ -4,19 +4,19 @@ Primeiro você precisa executar o POSTGRESQL através do comando:
 
 Depois execute no terminal:
 
-Este comando baixa as dependências do projeto.
+Este comando baixa as dependências do projeto.<br>
 `yarn`
 
-Cria o banco de dados.
+Cria o banco de dados.<br>
 `yarn sequelize db:create`
 
-Executa as migrations.
+Executa as migrations.<br>
 `yarn sequelize db:migrate`
 
-Executa todas as seeds.
+Executa todas as seeds.<br>
 `yarn sequelize db:seed:all`
 
-Executa o projeto.
-`yarn dev`
+Executa o projeto.<br>
+`yarn dev`<br>
 
 A API irá executar em: [http://localhost:3333](http://localhost:3333)
