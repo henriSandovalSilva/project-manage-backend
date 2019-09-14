@@ -1,22 +1,33 @@
+# ProjectManage - Backend
+
+## Tecnologias utilizadas
+- Express.js;
+- PostgreSQL
+- ORM Sequelize
+- Autenticação JWT
+- ESLint + Prettier + EditorConfig;
+
+## Instruções para testar o projeto
+
 Primeiro você precisa executar o POSTGRESQL através do comando:
 
 `docker run --name postgres-project -e POSTGRES_PASSWORD=postgres-project -p 5432:5432 -d postgres`
 
 Depois execute no terminal:
 
-Este comando baixa as dependências do projeto.<br>
+**Baixe as dependências do projeto.**<br>
 `yarn`
 
-Cria o banco de dados.<br>
+**Crie o banco de dados.**<br>
 `yarn sequelize db:create`
 
-Executa as migrations.<br>
+**Execute as migrations.**<br>
 `yarn sequelize db:migrate`
 
-Executa todas as seeds.<br>
+**Execute todas as seeds.**<br>
 `yarn sequelize db:seed:all`
 
-Executa o projeto.<br>
+**Execute o projeto.**<br>
 `yarn dev`<br>
 
 A API irá executar em: [http://localhost:3333](http://localhost:3333)
